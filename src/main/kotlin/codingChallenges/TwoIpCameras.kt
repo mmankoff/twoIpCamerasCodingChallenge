@@ -30,7 +30,7 @@ package codingChallenges
 --------------------------------------------------------------------------------------------------------------------
  */
 // First I want to iterate over (k)
-// To ensure edge cases where a larger amount of inputs needs to be searched through, I need to add a limitor
+// To ensure edge cases where a larger amount of inputs needs to be searched through, I need to add a limiter
 // here that will reduce the problem and allow me to not worry about receiving too large of an input to search. I
 // want to take the smallest possible number to search through for the input to start.
 fun solve(periods: List<Int>, moments: List<Int>): List<Int>? {
